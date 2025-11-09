@@ -32,25 +32,15 @@ Persistent Data: Uses a Podman volume (pg_data) to ensure all database data (use
 
 🛠️ Tech Stack
 
-Area
+Area           Technology
 
-Technology
+Frontend       React, TypeScript, Vite, TailwindCSS
 
-Frontend
+Backend        Django, Django REST Framework, Gunicorn
 
-React, TypeScript, Vite, TailwindCSS
+Database       PostgreSQL
 
-Backend
-
-Django, Django REST Framework, Gunicorn
-
-Database
-
-PostgreSQL
-
-Deployment
-
-Podman, podman-compose, Nginx
+Deployment     Podman, podman-compose, Nginx
 
 🏗️ Architecture
 
